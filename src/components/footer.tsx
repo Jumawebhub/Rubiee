@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
           <a href="/services">Services</a>
           <a href="/contact">Contact</a>
         </div>
-        <p>© {new Date().getFullYear()} YourCompany. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} Rubie Graphics. All Rights Reserved.</p>
       </div>
     </footer>
   );
