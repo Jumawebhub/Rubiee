@@ -23,10 +23,7 @@ const Footer: React.FC = () => {
     <footer id="footer" className={`footer ${isVisible ? "visible" : "hidden"}`}>
       <div className="footer-content">
         <div className="footer-links">
-          <a href="/home">Home</a>
-          <a href="/about">About</a>
-          <a href="/services">Services</a>
-          <a href="/contact">Contact</a>
+     
         </div>
         <p>© {new Date().getFullYear()} Rubie Graphics. All Rights Reserved.</p>
       </div>
