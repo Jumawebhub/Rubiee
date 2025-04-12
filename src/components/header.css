@@ -1,0 +1,70 @@
+/* Header Styles */
+.navbar {
+    background: linear-gradient(90deg, #1b235b, #0a2f3d);  /* Modern gradient */
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+box-shadow: 0 4px 8px rgba(12, 12, 12, 0.2);
+  }
+  
+  .navbar h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  /* Hover Effect */
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Active Link Effect */
+  .nav-link.active {
+  
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 10px;
+    }
+  }
+  

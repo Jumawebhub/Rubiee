@@ -1,0 +1,145 @@
+/* About Container - Matches Services Theme */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(100deg, #0a2f3d, #1b235b);
+    min-height: 100vh;
+    color: white;
+  }
+  
+  /* Title Styling - Consistent with Services */
+  .about-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .about-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  /* Content Area - Card-like Feel */
+  .about-content {
+    background: linear-gradient(100deg, #0a3444, #1d2666);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Profile Image - Similar to Service Images */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4caf50;
+    display: block;
+    margin: 0 auto 1.5rem;
+    transition: all 0.3s ease;
+    filter: brightness(0.9);
+  }
+  
+  .about-content:hover .profile-img {
+    transform: scale(1.05);
+    filter: brightness(1);
+    border-color: #ffffff;
+  }
+  
+  /* Text Styling */
+  .about-text {
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2rem;
+  }
+  
+  .about-text p {
+    margin-bottom: 1rem;
+  }
+  
+  .about-text strong {
+    color: #4caf50;
+    font-weight: 600;
+  }
+  
+  /* Skills Section - Matches Services Items */
+  .skills-section {
+    margin-top: 2rem;
+  }
+  
+  .skills-section h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+  
+  .skill-item {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid #4caf50;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-item:hover {
+    background: #4caf50;
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 1.5rem 1rem;
+    }
+    
+    .about-title {
+      font-size: 2rem;
+    }
+    
+    .about-subtitle {
+      font-size: 1rem;
+    margin-bottom: 1.5rem;
+    }
+    
+    .profile-img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-content {
+      padding: 1.5rem;
+    }
+    
+    .skills-list {
+      justify-content: center;
+    }
+  }
